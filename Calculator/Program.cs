@@ -31,6 +31,9 @@ internal class Program
                 case '*':
                     result = num1 * num2;
                     break;
+                case '^':
+                    result = Math.Pow(num1, num2);
+                    break;
                 default:
                     throw new InvalidOperationException("Неверная операция");
             }
